@@ -54,7 +54,7 @@ render_video(ds, "wind_streamlines", "wind.mp4", frames=120, fps=2)
 | 声化 | ✅                     | ✅                                             |
 | 商用 | 需自行遵循 CC-BY 署名并承担取数成本 | **商业授权 + 署名合规 + manifest 校验**                 |
 
-完整包购买：见 Gumroad（链接待补）。
+完整包购买：[Weather-Sculpt on Gumroad](https://robloxer31.gumroad.com/l/Weather-Sculpt)
 
 ## 数据与署名 · Data & Attribution
 
