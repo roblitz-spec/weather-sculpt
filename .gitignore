@@ -1,0 +1,26 @@
+# 数据下载产物（全球 367MB+ / 中国区域），不进版本库
+data/
+!weather_sculpt/data/
+
+# 构建产物
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# 运行时临时
+*.tmp
+*.log
+__pycache__/
+*.pyc
+
+# 本地个人操作文档（不推 GitHub）
+GUMROAD_PUBLISH_GUIDE.md
+SALES_COPY.md
+PUBLISH*.md
+GUIDE_*.md
+CONTENT_*.md
+
+# 系统
+.DS_Store
+Thumbs.db

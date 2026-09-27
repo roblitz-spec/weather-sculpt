@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-sculpt"
+version = "0.1.0"
+description = "Sculpt real ERA5 weather fields into video, GIF and sound — 4 tuned presets, real reanalysis data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "roblitz" }]
+keywords = ["weather", "era5", "visualization", "sonification", "animation", "climate"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+dependencies = [
+    "numpy>=1.26",
+    "xarray>=2024.02",
+    "zarr>=2.16",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+# 从 ERA5 开放数据（earthmover-icechunk-era5）远程读取需要
+remote = ["icechunk", "s3fs", "pcodec"]
+gif = ["pillow"]
+
+[project.urls]
+Homepage = "https://github.com/roblitz-spec/weather-sculpt"
+Data = "https://ads.ecmwf.int"
+
+[tool.setuptools.packages.find]
+include = ["weather_sculpt*"]
+
+[tool.setuptools.package-data]
+weather_sculpt = ["data/*.zarr/**"]
