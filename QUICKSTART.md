@@ -2,6 +2,8 @@
 
 > Ready-to-Run 完整包：预置真实 ERA5 气象场（全球 7 天 + 中国 30 天，5 变量），
 > 解压即用，不用再自己下载 20 小时。
+>
+> 🌐 浏览器 demo（无需安装）：https://roblitz-spec.github.io/weather-sculpt/
 
 ## 这是什么
 
