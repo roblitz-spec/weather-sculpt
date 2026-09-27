@@ -5,7 +5,7 @@
 不是动画模拟——是 ECMWF 第五代再分析（ERA5, CC-BY 4.0）的真实大气状态，  
 经 4 个预调"雕刻"预设渲染成可发布的媒体，并附一条独有的**天气声化**通道。
 
-> 不想装任何东西？浏览器 demo：`https://roblitz-spec.github.io/weather-sculpt/`（待上线）
+> 不想装任何东西？浏览器 demo：[weather-sculpt demo](https://roblitz-spec.github.io/weather-sculpt/)
 
 ## 预设 · Presets
 
